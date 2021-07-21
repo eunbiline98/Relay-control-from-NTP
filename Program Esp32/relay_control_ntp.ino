@@ -2,13 +2,8 @@
 #include <WiFi.h>
 #include <WiFiUdp.h>
 
-//#define WIFI_SSID "LKIBIZ2"
-//#define WIFI_PASSWORD "lkibiz2019"
-#define WIFI_SSID "pandawa"
-#define WIFI_PASSWORD "Werkud4r@"
-
-//#define WIFI_SSID "Robotic_Garage"
-//#define WIFI_PASSWORD "robotic77"
+//#define WIFI_SSID "........."
+//#define WIFI_PASSWORD "..........."
 
 unsigned long previousMillis = 0;
 unsigned long interval = 10000;
@@ -16,8 +11,8 @@ unsigned long interval = 10000;
 #define indi_wifi 2
 #define relay 13
 
-const long utcOffside = 25200;
-char daysOfTheWeek[7][12] = {"Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"};
+const long utcOffside = 25200; // GMT+7 (Vietnam,Thailand.Laos,Cambodia,Indonesia)
+char daysOfTheWeek[7][12] = {"Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"}; // Indonesia format day
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
