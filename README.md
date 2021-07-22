@@ -1,5 +1,5 @@
 # Relay-control-from-NTP
-Turn On/Off with Internet Time
+Simple project turn On/Off with internet time
 
 # Hardware
 - Esp-32
